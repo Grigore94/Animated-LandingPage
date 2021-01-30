@@ -1,0 +1,40 @@
+img {
+  width: 100%;
+  border-radius: 0.8rem;
+}
+h1 {
+  font-size: 4rem;
+  margin: 0.5rem 0;
+}
+/* sections */
+section {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+section:nth-child(even) {
+  flex-direction: row-reverse;
+}
+.intro,
+img {
+  flex: 1;
+}
+.intro {
+  padding: 2rem;
+}
+/* scroll indicator  */
+#scroll-indicator {
+  position: fixed;
+  top: 60px;
+  height: 10px;
+  width: 0%;
+  background-color: aquamarine;
+  z-index: 100;
+}
+footer {
+  padding: 4rem;
+  background-color: black;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
