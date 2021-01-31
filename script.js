@@ -7,7 +7,7 @@ window.addEventListener("scroll", function () {
   scroll_indicator.style.width = `${currentScrollHeight}%`;
 });
 
-/* scroll reveal */
+
 
 window.sr = ScrollReveal({
   reset: true,
@@ -31,7 +31,7 @@ sr.reveal(".hero .image", {
   distance: "200px",
 });
 
-// about
+
 sr.reveal(".cherry .intro", {
   duration: 2000,
   origin: "right",
@@ -48,7 +48,7 @@ sr.reveal(".cherry .img", {
   },
 });
 
-/* services */
+
 sr.reveal(".pears .intro", {
   duration: 2000,
   origin: "top",
@@ -61,7 +61,7 @@ sr.reveal(".pears .img", {
   distance: "200px",
 });
 
-// portfolio
+
 sr.reveal(".plums .intro", {
   duration: 2000,
   origin: "bottom",
